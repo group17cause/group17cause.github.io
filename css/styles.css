@@ -1,31 +1,52 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body{
-    background-image: url(/images/chinatown2.jpg);
-    background-size: cover;
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    
-}
-h1{
-    height: 8vh;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin: 50px;
-}
-p{
-    padding: 10px;
-    font-size: 20px;
-    color:white;
-}
-.container{
-    height: 100vh;
+  background-image: url(/images/chinatown2.jpg);
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center; 
 }
 
+h1{
+  height: 8vh;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 50px;
+}
+
+.container{
+  height: 100vh;
+}
+
+
+.nav-bar{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: rgb(192, 233, 238);   
+}
+#home{
+  margin-left: 70px;
+}
+#donate{
+  margin-right: 70px;
+}
+ul.nav-bar a{
+  text-decoration: none;
+  color: rgb(53, 43, 43);
+}
+ul.nav-bar a:hover{
+
+ font-size: larger;
+  color: rgb(102, 96, 96);
+  text-decoration: underline;
+}
 ul.nav-bar li{
     display: flex;
     height: 7vh;
@@ -35,35 +56,6 @@ ul.nav-bar li{
     font-size: 3vh;
 }
 
-#home{
-    margin-left: 70px;
-}
-#donate{
-    margin-right: 70px;
-}
-
-a{
-    text-decoration: none;
-    color: rgb(53, 43, 43);
-}
-a:hover{
-
-   font-size: larger;
-    color: rgb(102, 96, 96);
-    text-decoration: underline;
-}
-
-
-.nav-bar{
-   
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 8vh;
-    background-color: rgb(192, 233, 238);
-    
-}
 
 .section{
     height: 90vh;
@@ -71,9 +63,18 @@ a:hover{
     grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
 }
-
-.link {
-    
+.left-side-bullet-points {
+  padding: 10px;
+  font-size: 20px;
+  color:white; 
+}
+.left-side-bullet-points a {
+  color: white;
+}
+.donate{
+  margin-top: 50px;
+}
+.link {   
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -82,7 +83,6 @@ a:hover{
     transition-duration: 0.4s;
     cursor: pointer;
   }
-
 .link{
     background-color: rgb(240, 216, 34); 
     color: black; 
@@ -90,19 +90,7 @@ a:hover{
     margin-left: 45%;
    
   }
-  .link:hover {
-    background-color: #008CBA;
-    color: white;
-  }
-
-.left-side-bullet-points {
-  padding: 10px;
-  font-size: 20px;
-  color:white;
+.link:hover {
+  background-color: #008CBA;
+  color: white;
 }
-
-.donate{
-  padding-top: 300px;
-}
-
-
