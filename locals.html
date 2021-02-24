@@ -2,29 +2,59 @@
 <html>
 <!--Restaurants page-->
 <style>
+
 body {
 	background-color:rgba(150,0,0,0.25);
+	margin:0;
+	padding:0;
 }
-</style>
-<style>
+
 div {
 	margin: 30px;
 }
+
+.nav-bar{
+	margin-top: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: white;
+}
+
+ul.nav-bar li{
+    display: flex;
+    height: 7vh;
+    width: 7rem;
+    justify-content: center; 
+    align-items: center;
+	font-size: 3vh;
+	
+}
+ul.nav-bar a{
+  text-decoration: none;
+  color: rgb(53, 43, 43);
+ 
+}
+ul.nav-bar a:hover{
+
+font-size: larger;
+ color: rgb(102, 96, 96);
+ text-decoration: underline;
+}
+
 </style>
 
-<form action = "index.html">
-	<button type = "submit">Main Page</button>
-</form>
 
-<form action = "locals.html">
-	<button type = "submit">Local Restaurants</button>
-</form>
+<ul class = "nav-bar">
+	<li id="home"><a href="index.html">Home</a></li>
+	<li id="about"><a href="locals.html">Restaurants</a></li>
+	<li id="donate"><a href="donations.html">Donate</a></li>
+	
+</ul>
 
-<form action = "donations.html">
-	<button type = "submit">Donate to Chinatown</button>
-</form>
-
-<h1 style="font-size:300%; text-align:center;";>Local Restaurants</h1>
+<h1 style="font-size:300%; text-align:center;">Local Restaurants</h1>
 <h2 style="font-size:200%; text-align:center;">Need your help</h2>
 <p style="font-size:130%; font-family:Times New Roman; text-align:center;">	
 You can support Chinatown directly by going to these restaurants.
@@ -34,7 +64,7 @@ Call ahead to order takeout or delivery.</p>
 <br>
 <div>
 <p>Please mind all COVID-19 protocol:<br>
-<img title= "NYC INDOOR DINING GUIDELINES" src= "images/indoor_guidelines.jpg" width = "700" height = "500">	
+<img title= "NYC INDOOR DINING GUIDELINES" src= "images/indoor_guidelines.JPG" width = "700" height = "500">	
 <img src= "images/chinatown_st_nyc.jpg" width = "700" height = "500">
 <div>
 </body>

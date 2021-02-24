@@ -1,46 +1,71 @@
 ﻿<!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: beige;
+            }
+.nav-bar{
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: antiquewhite;
+}
+
+ul.nav-bar li{
+    display: flex;
+    height: 7vh;
+    width: 7rem;
+    justify-content: center; 
+    align-items: center;
+	font-size: 3vh;
+	
+}
+ul.nav-bar a{
+  text-decoration: none;
+  color: rgb(53, 43, 43);
+ 
+}
+ul.nav-bar a:hover{
+
+font-size: larger;
+ color: rgb(102, 96, 96);
+ text-decoration: underline;
+}
+        </style>
+    </head>
 <body>
-    <form action="index.html">
-        <button type="submit">Main Page</button>
-    </form>
-
-    <form action="locals.html">
-        <button type="submit">Local Restaurants</button>
-    </form>
-
-    <form action="donations.html">
-        <button type="submit">Donate to Chinatown</button>
-    </form>
+    <ul class = "nav-bar">
+        <li id="home"><a href="index.html">Home</a></li>
+        <li id="about"><a href="locals.html">Restaurants</a></li>
+        <li id="donate"><a href="donations.html">Donate</a></li>
+        
+    </ul>
+    
     <h1>
         Donations
     </h1>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Meta Data-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title></title>
-</head>
-
-<body>
+    <center>
     <img src="https://static01.nyt.com/images/2020/08/05/dining/03Chinatown1/merlin_175184061_ed1541c0-f5dc-4ab2-b5a5-e03d4b499648-superJumbo.jpg?quality=90&auto=webp" width=500 height=300></img>
+    </center>
     <h1>
         Every cent makes a difference!
     </h1>
     <p>
         They were there when we needed them most. For family nights out, dates, and days when we had energy to order takeout but not enough energy to cook food for ourselves. Now it's time for us to give back to these heroes. Click the button below to make a donation.
     </p>
-
-    <center>
-        <img src="https://www.necmh.org/wp-content/uploads/2016/07/make-a-donation-button.png"></img>
-    </center>
+    <div>
+        <center>
+            <img src="https://www.necmh.org/wp-content/uploads/2016/07/make-a-donation-button.png"></img>
+        </center>
+    </div>
+    
 
 </body>
 
-</body>
 </html> 
